@@ -16,10 +16,12 @@ const exercises = [
   "Підтягування 4х8",
   "Тяга гантелей в нахиленій лавці 4х8(16)",
   "Гіперекстензія 4х10",
+  "Жим гантелі за головою 4х10",
 ];
 
 const DayThree: React.FC = () => {
   const [weights, setWeights] = useState<(number | undefined)[]>([
+    undefined,
     undefined,
     undefined,
     undefined,
